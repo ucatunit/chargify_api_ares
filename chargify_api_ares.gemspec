@@ -16,8 +16,6 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = %w[lib]
 
-  # Runtime Dependencies
-  s.add_runtime_dependency('activeresource', '>= 3.0', '< 5')
 
   # Development Dependencies
   s.add_development_dependency('rake', '~> 10.0.3')
